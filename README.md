@@ -29,7 +29,7 @@ This uses PyTelegramBot API for most of its functions albeit some custom algorit
 
 The storage for the bot lies in indexing n^2 integers - implicitly assining a serial number to each user, allowing the bot to keep track of money flows. Iterations are done using modulo n as well.
 
-Receipt simplification lies in identifying these modulo conjugates, ie. (1*n) + 3 and (3*n) + 1 are modulo conjugates, these serve to be the pair of indexes where money owed is compared and the delta is computed.
+Receipt simplification lies in identifying these *modulo conjugates*, ie. (1n) + 3 and (3n) + 1 are modulo conjugates, these serve to be the pair of indexes where money owed is compared and the delta is computed.
 
 ```
 def listsimplify(lst, num):
