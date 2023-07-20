@@ -15,9 +15,13 @@ Add the bot to your group
 Use commands /start to bring up the instructions
 
 /newtrip - starts a new trip
+
 /sum - used to declare owing someone money
+
 /split - used to charge a group of people money equally
+
 /receipt - brings up the receipt
+
 /endtrip - wipes your data from the database
 
 ## How the code works
